@@ -1,0 +1,324 @@
+*,
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgb(15, 18, 17);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.navbar-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item {
+  padding: 5px 10px;
+  transition: 0.2s;
+  margin: 3px;
+  display: flex;
+  align-items: center;
+}
+.nav-item:hover {
+  background-color: rgb(204, 149, 53);
+  color: black;
+}
+
+.content-img {
+  justify-content: center;
+  align-items: center;
+}
+.motorcycle1 {
+  background-image: url("./img/motorcycle2jpg.jpg");
+}
+.motorcycle2 {
+  background-image: url("./img/motorcycle1.jpg");
+}
+.motorcycle3 {
+  background-image: url("./img/motorcycle3jpg.jpg");
+}
+.raly1 {
+  background-image: url("./img/raly1.jpg");
+}
+.raly2 {
+  background-image: url("./img/raly2.jpg");
+}
+.raly3 {
+  background-image: url("./img/raly3.jpg");
+}
+
+i {
+  color: white;
+}
+
+.background {
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 5px;
+}
+.caption {
+  position: absolute;
+
+  padding: 10px;
+
+  bottom: 0;
+  font-weight: 600;
+  background-color: rgba(11, 10, 10, 0.653);
+  width: 100%;
+}
+.caption a {
+  color: white;
+  text-decoration: none;
+}
+
+.coontainer-news {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  padding: 10px;
+}
+.content-news {
+  margin: 20px;
+  width: 33%;
+  background-color: rgb(25, 23, 23);
+  color: white;
+  border-radius: 10px;
+}
+.news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.title-news {
+  text-align: center;
+}
+.title-news h2 {
+  font-size: 25px;
+}
+.title-news h4 {
+  color: gray;
+  font-size: 20px;
+}
+.archive {
+  background-color: rgb(137, 82, 6);
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: 400;
+}
+
+.dash {
+  width: 100%;
+  height: 3px;
+  margin: 10px 0;
+  background-color: antiquewhite;
+}
+.content img {
+  width: 100%;
+}
+.content h4 {
+  margin-top: 20px;
+}
+.name-person {
+  color: rgb(148, 148, 148);
+  font-size: 12px;
+}
+
+.new-post {
+  margin: 20px 0;
+  padding: 10px;
+}
+.new-post img {
+  width: 100px;
+}
+
+.bg-white-50 {
+  background-color: rgb(181 181 181 / 68%);
+  color: black;
+}
+
+.sidebar {
+  margin: 20px;
+  width: 33%;
+}
+
+.folowus {
+  background-image: linear-gradient(to right, rgb(232, 118, 25), yellow);
+  height: 9rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.folowus h4 {
+  margin-bottom: 25px;
+}
+.panel {
+  background-image: linear-gradient(
+    to right,
+    rgb(79, 147, 203),
+    rgb(33, 176, 159)
+  );
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+form input {
+  background-color: rgb(177, 194, 200);
+  outline: none;
+  border: none;
+  height: 2.5rem;
+}
+form label {
+  margin: 10px 0;
+}
+tr th {
+  padding: 0 10px;
+  margin: 0 3px;
+}
+.tr td:nth-child(2) {
+  font-weight: 700;
+}
+
+.tr td:nth-child(2):hover {
+  background-color: rgba(37, 36, 36, 0.725);
+}
+.tr td:nth-child(1) {
+  background-color: rgb(215, 215, 233);
+  color: rgb(88, 88, 88);
+  border-left: 2px solid rgb(96, 96, 96);
+  font-weight: 600;
+}
+.tr td:nth-child(3) {
+  background-color: rgb(215, 215, 233);
+  color: rgb(88, 88, 88);
+  border-right: 2px solid rgb(229, 156, 19);
+  font-weight: 600;
+}
+.hr {
+  border-bottom: 3px solid rgba(70, 70, 70, 0.567);
+}
+
+footer {
+  margin-top: 30px;
+}
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.links ul {
+  display: flex;
+  list-style-type: none;
+}
+.links ul li {
+  margin: 15px;
+  transition: 0.2s;
+}
+.links ul li:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+/*  */
+@media (max-width: 1247.98px) {
+  .instagram-id {
+    width: 350px;
+    height: 70px;
+    margin-top: 1px;
+  }
+}
+@media (max-width: 679.98px) {
+  .logo,
+  .instagram-id {
+    width: calc(100% - 80px) !important;
+    height: 80px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .content img {
+    width: calc(100% - 10px);
+  }
+  .news-title {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .mr-5 {
+    margin-right: 0;
+    font-size: 7px;
+  }
+  .new-post {
+    margin: 10px 0;
+    padding: 5px;
+  }
+  .new-post-img {
+    width: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .content-img {
+    flex-direction: column;
+  }
+  .coontainer-news {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content-news{
+    width: 100%;
+  }
+
+  .new-post{
+    flex-direction: column;
+  }
+  .sidebar{
+    width: 100%;
+  }
+  .footer-align{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .rightside{
+    flex-direction: row;
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .navbar-top{
+    flex-direction: column;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  
+}
+@media only screen and (max-width: 720px) {
+}
+@media only screen and (max-width: 576px) {
+  .background {
+    width: 100%;
+  }
+}
