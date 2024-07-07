@@ -20,6 +20,9 @@ html {
   display: flex;
   justify-content: space-around;
 }
+.navbar-bottom{
+  width: 100%;
+}
 
 .nav-item {
   padding: 5px 10px;
@@ -255,16 +258,16 @@ footer {
   }
 }
 @media only screen and (max-width: 992px) {
-  .content img {
+  /* .content img {
     width: calc(100% - 10px);
-  }
+  } */
   .news-title {
     font-size: 15px;
     font-weight: 500;
   }
   .mr-5 {
-    margin-right: 0;
-    font-size: 7px;
+    margin-right: 20px;
+    
   }
   .new-post {
     margin: 10px 0;
@@ -275,6 +278,7 @@ footer {
   }
 }
 @media only screen and (max-width: 768px) {
+  
   .content-img {
     flex-direction: column;
   }
@@ -314,6 +318,7 @@ footer {
 @media only screen and (max-width: 680px) {
   .navbar-top {
     flex-direction: column;
+    align-items: center;
   }
   body {
     display: flex;
@@ -321,12 +326,19 @@ footer {
     justify-content: center;
     align-items: center;
   }
+  .leftside{
+    line-height: 0;
+  }
 }
 @media only screen and (max-width: 720px) {
 }
 @media only screen and (max-width: 576px) {
   .background {
     width: 100%;
+  }
+  .links ul {
+    flex-direction: column;
+    
   }
 
   .links ul li {
