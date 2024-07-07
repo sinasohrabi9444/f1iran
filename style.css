@@ -4,6 +4,7 @@ html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -282,38 +283,44 @@ footer {
     justify-content: center;
     align-items: center;
   }
-  .content-news{
+  .content-news {
     width: 100%;
+  }
+  .img-logo-telegram {
+    padding: 0;
+    width: 367px;
   }
 
-  .new-post{
+  .new-post {
     flex-direction: column;
   }
-  .sidebar{
+  .sidebar {
     width: 100%;
   }
-  .footer-align{
+  .footer-align {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .rightside{
+  .rightside {
     flex-direction: row;
     width: 100% !important;
   }
+
+  .img-logo-telegram {
+    padding: 20px;
+  }
 }
 @media only screen and (max-width: 680px) {
-  .navbar-top{
+  .navbar-top {
     flex-direction: column;
   }
-  body{
+  body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow-x: hidden;
   }
-  
 }
 @media only screen and (max-width: 720px) {
 }
@@ -321,4 +328,10 @@ footer {
   .background {
     width: 100%;
   }
+
+  .links ul li {
+    margin: 6px;
+    font-size: 10px;
+  }
+
 }
